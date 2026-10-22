@@ -28,7 +28,12 @@ Routes: /starters/crm/ and /starters/admin/. Both use RecordManager with typed s
 
 Adapt src/data/records.ts and pass initialRecords, statuses and title to RecordManager. Source patterns: src/app/demos/simple-crm/page.tsx and src/app/demos/beauty-booking/admin/page.tsx in the original portfolio. Original business records and hard-coded totals were replaced.
 
-## Other planned starters
+## Personal Brand and Course Landing
 
-Personal Brand, Course Landing and Order Collection extraction are tracked in the roadmap; they are not yet implemented
-in this commit.
+Routes: /starters/personal-brand/ and /starters/course-landing/. Reusable CreatorProfile and CourseLanding components accept typed content from src/data/landing.ts. Edit content and links there; keep examples marked fictional until replaced with your own truthful information. These are presentation templates, not enrollment or contact backends. Source patterns: the original personal-brand/page.tsx and course-landing/page.tsx. Promotional metrics and testimonials were removed.
+
+## Order Collection
+
+Route: /starters/order-collection/. OrderForm accepts products and an async onSubmit callback. Configure sample products in src/data/products.ts. Quantities are integer values from 0 to 99; totals are calculated in minor currency units. The callback receives product IDs and quantities, not trusted prices. The included page is a local demo and never sends, saves or charges anything.
+
+Extracted cart/contact collection patterns from the original private-order/order/PrivateOrderPageClient.tsx. Real commerce needs backend price/inventory validation, secure persistence, authorization and payment processing. Supabase integration is provided only for booking, not orders, CRM or admin.

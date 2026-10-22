@@ -13,7 +13,7 @@ Checkboxes describe implemented work, not promises or usage metrics.
 - [x] Booking workflow with reusable configuration and explicit demo mode
 - [x] Lightweight CRM with synthetic records
 - [x] Reusable administration patterns
-- [ ] Creator, course landing and order collection examples
+- [x] Creator, course landing and order collection examples
 
 ## Phase 3 — Data Layer
 

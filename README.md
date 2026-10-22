@@ -4,8 +4,8 @@ Reusable open-source Next.js starters for personal brands,
 local businesses, independent developers, students and small teams.
 
 Open Web Starter provides practical reference implementations for common web
-workflows. Booking is available now; landing pages, order collection,
-lightweight CRM and admin dashboards are being extracted incrementally.
+workflows such as landing pages, booking systems, order collection, lightweight
+CRM and admin dashboards. Each example clearly states its persistence limits.
 
 **Next.js + TypeScript + React + Tailwind CSS · MIT License · Node.js 24**
 
@@ -32,9 +32,9 @@ boundaries and realistic reuse matter more than feature count.
 | Starter | State | Scope |
 | --- | --- | --- |
 | Booking | Runnable example | Configurable service/date/time flow, validation and optional Supabase submission |
-| Personal Brand | Planned | Creator and developer portfolio layout |
-| Course Landing | Planned | Course/community/digital product landing page |
-| Order Collection | Planned | Cart and customer information collection |
+| Personal Brand | Presentation example | Creator and developer portfolio layout |
+| Course Landing | Presentation example | Course/community/digital product landing page |
+| Order Collection | Local demo | Cart and customer information collection |
 | Lightweight CRM | In-memory example | Search, status filters and lead updates |
 | Admin Dashboard | UI example | Summary cards, record filters and status actions |
 
