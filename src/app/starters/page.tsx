@@ -1,0 +1,1 @@
+export default function Starters() { return <><h1 className="text-4xl font-bold">Starters</h1><p className="mt-5">Extraction is in progress. No starter is released in this foundation commit.</p></>; }

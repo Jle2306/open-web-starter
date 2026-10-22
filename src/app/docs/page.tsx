@@ -1,0 +1,1 @@
+export default function Docs() { return <><h1 className="text-4xl font-bold">Documentation</h1><p className="mt-5">Install Node.js 24, run npm ci, then npm run dev. Developer guides are being extracted with the starters.</p></>; }
