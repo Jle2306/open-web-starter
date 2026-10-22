@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible problem without private data.
+body:
+  - type: textarea
+    id: field_0
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: field_1
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: field_2
+    attributes:
+      label: Expected behavior
+  - type: textarea
+    id: field_3
+    attributes:
+      label: Actual behavior
+  - type: textarea
+    id: field_4
+    attributes:
+      label: Environment
+  - type: textarea
+    id: field_5
+    attributes:
+      label: Additional context

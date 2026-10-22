@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security policy
+    url: https://github.com/Jle2306/open-web-starter/security/policy
+    about: Report vulnerabilities privately using the policy, not public issues.

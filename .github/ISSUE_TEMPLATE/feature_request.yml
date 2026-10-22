@@ -1,0 +1,27 @@
+name: Feature request
+description: Propose a focused reusable improvement.
+body:
+  - type: textarea
+    id: field_0
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: field_1
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: field_2
+    attributes:
+      label: Alternatives
+  - type: textarea
+    id: field_3
+    attributes:
+      label: Starter affected
+  - type: textarea
+    id: field_4
+    attributes:
+      label: Additional context
