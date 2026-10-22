@@ -6,7 +6,7 @@ Checkboxes describe implemented work, not promises or usage metrics.
 
 - [x] Independent application shell and public repository
 - [x] MIT license, contribution/security policies and issue/PR templates
-- [ ] Complete developer documentation and first versioned release
+- [x] Complete developer documentation and v0.1.0 release preparation
 
 ## Phase 2 — Starter Extraction
 
@@ -37,6 +37,7 @@ Checkboxes describe implemented work, not promises or usage metrics.
 
 ## Phase 6 — Community
 
-- [ ] Publish v0.1.0 after the documented checks pass
+- [x] Prepare v0.1.0 with documented checks and release notes
+- Publication status is recorded in [GitHub Releases](https://github.com/Jle2306/open-web-starter/releases).
 - [ ] Review incoming contributions and reproducible feedback
 - [ ] Document third-party usage only when verifiable and shared with permission

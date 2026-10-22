@@ -2,8 +2,7 @@
 
 ## Supported versions
 
-Before the first release, fixes target main. After publication, the latest
-0.1.x release receives fixes on a best-effort basis. Older versions are
+The latest 0.1.x release receives fixes on main on a best-effort basis. Older versions are
 unsupported. This independent example project has no response SLA.
 
 ## Reporting a vulnerability
