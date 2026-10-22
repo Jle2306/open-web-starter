@@ -11,8 +11,8 @@ Checkboxes describe implemented work, not promises or usage metrics.
 ## Phase 2 — Starter Extraction
 
 - [x] Booking workflow with reusable configuration and explicit demo mode
-- [ ] Lightweight CRM with synthetic records
-- [ ] Reusable administration patterns
+- [x] Lightweight CRM with synthetic records
+- [x] Reusable administration patterns
 - [ ] Creator, course landing and order collection examples
 
 ## Phase 3 — Data Layer
