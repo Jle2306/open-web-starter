@@ -35,8 +35,8 @@ boundaries and realistic reuse matter more than feature count.
 | Personal Brand | Planned | Creator and developer portfolio layout |
 | Course Landing | Planned | Course/community/digital product landing page |
 | Order Collection | Planned | Cart and customer information collection |
-| Lightweight CRM | Planned | Search, status filters and lead updates |
-| Admin Dashboard | Planned | Summary cards, record filters and status actions |
+| Lightweight CRM | In-memory example | Search, status filters and lead updates |
+| Admin Dashboard | UI example | Summary cards, record filters and status actions |
 
 See [Starter guide](docs/STARTERS.md). These are examples, not complete
 production systems. Authentication, payments, notifications and atomic slot

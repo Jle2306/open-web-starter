@@ -22,8 +22,13 @@ fields with typed configuration, calendar dates and generic contact information.
   authorize operations and reserve availability atomically.
 - No authentication, payments, email delivery or staff management is included.
 
+## Lightweight CRM and Admin Dashboard
+
+Routes: /starters/crm/ and /starters/admin/. Both use RecordManager with typed synthetic records. Search, source/status filters, status editing, notes and reset work in React memory only. Summary counts derive from those records. No authentication, persistence or cross-page booking synchronization is implemented.
+
+Adapt src/data/records.ts and pass initialRecords, statuses and title to RecordManager. Source patterns: src/app/demos/simple-crm/page.tsx and src/app/demos/beauty-booking/admin/page.tsx in the original portfolio. Original business records and hard-coded totals were replaced.
+
 ## Other planned starters
 
-Personal Brand, Course Landing, Order Collection, Lightweight CRM and Admin
-Dashboard extraction are tracked in the roadmap; they are not yet implemented
+Personal Brand, Course Landing and Order Collection extraction are tracked in the roadmap; they are not yet implemented
 in this commit.
