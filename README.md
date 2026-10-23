@@ -56,7 +56,7 @@ Run the repository's current examples locally using the instructions above.
 - TypeScript, React and Tailwind CSS
 - Optional Supabase REST insertion; no unused client SDK
 - GitHub Actions CI, CodeQL and Dependabot
-- Node.js built-in test runner
+- Node.js built-in test runner and Playwright browser regression tests
 
 ## Getting started
 
@@ -97,10 +97,10 @@ src/app/          Pages and layouts
 src/components/   Reusable UI and booking form
 src/data/         Synthetic starter configuration
 src/lib/          Validation and persistence adapter
-tests/            Booking validation regressions
+tests/            Unit, adapter and browser regressions
 ```
 
-See [Architecture](docs/ARCHITECTURE.md) for reuse boundaries and provenance.
+See [Architecture](docs/ARCHITECTURE.md) for reuse boundaries and provenance, and [Testing](docs/TESTING.md) for desktop/mobile browser checks.
 
 ## Roadmap
 

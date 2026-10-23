@@ -26,7 +26,7 @@ Checkboxes describe implemented work, not promises or usage metrics.
 
 - [x] Initial lint, TypeScript and build workflow
 - [x] CodeQL and dependency monitoring
-- [ ] Browser E2E automation for booking failures and retries
+- [x] Browser E2E automation for booking failures and retries
 - [ ] Automated accessibility coverage
 - [ ] Resolve development-only upstream braces advisory
 

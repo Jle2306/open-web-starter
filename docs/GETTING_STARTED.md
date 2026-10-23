@@ -36,8 +36,8 @@ npm run build
 ```
 
 Node tests cover invalid dates, past times, unknown services, unavailable slots,
-invalid contacts and payload normalization. They are not browser E2E tests;
-browser testing is tracked separately in issue #9.
+contacts, payload mapping and persistence adapter responses. See [Testing](TESTING.md)
+for Playwright desktop/mobile workflows, intercepted failure/retry tests and screenshots.
 
 ## Optional Supabase setup
 
